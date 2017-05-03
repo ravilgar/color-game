@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <title>Угадай цвет</title>
+</head>
+
+<body>
+    <h1 id="h1">Угадай цвет <span id="colorDisplay">RGB - включи java script в браузере</span></h1>
+    <div id="stripe">
+        <button id="reset" class="w3-btn">НОВЫЙ ЦВЕТ</button>
+        <ul>
+            <li>
+                <button id="rgbBtn" class="changeTypeBtns w3-btn">RGB</button>
+            </li>
+            <li>
+                <button id="hexBtn" class="changeTypeBtns w3-btn white">HEX</button>
+            </li>
+        </ul>
+        <p><span id="message"></span></p>
+    </div>
+    <div class="container">
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+        <div class="square col-xs-6 col-sm-6 col-md-4 col-lg-4"></div>
+    </div>
+    <script type="text/javascript" src="colorGame.js"></script>
+</body>
+
+</html>
